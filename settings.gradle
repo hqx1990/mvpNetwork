@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':mvpnetworklibrary'
 rootProject.name='MvpNetwork'
