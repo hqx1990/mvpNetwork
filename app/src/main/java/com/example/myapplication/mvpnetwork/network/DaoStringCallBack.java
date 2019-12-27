@@ -1,18 +1,18 @@
 package com.example.myapplication.mvpnetwork.network;
 
 
+import android.telecom.Call;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson.JSON;
+import com.example.myapplication.mvpnetwork.util.JsonUtils;
 import com.example.myapplication.mvpnetworklibrary.R;
 import com.example.myapplication.mvpnetworklibrary.base.BaseApplication;
 import com.example.myapplication.mvpnetworklibrary.network.bean.ResultBean;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.NetResultCallBack;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.callback.StringCallback;
-import com.example.myapplication.mvpnetworklibrary.network.okHttp.utils.JsonUtils;
 import com.example.myapplication.mvpnetworklibrary.util.Logger;
 
-import okhttp3.Call;
 
 
 /**
@@ -34,8 +34,7 @@ public class DaoStringCallBack extends StringCallback {
     }
 
     @Override
-    public void onError(Call call, Exception e, String flag, int responseCode) {
-
+    public void onError(okhttp3.Call call, Exception e, String flag, int code) {
         Logger.e("网络错误", e.toString());
         try {
             if (null!=callBack){
@@ -47,7 +46,7 @@ public class DaoStringCallBack extends StringCallback {
 //                    e1.printStackTrace();
 //                }
                 callBack.onErr(BaseApplication.getInstance().getResources().getString(R.string.noConnectionCode),
-                        BaseApplication.getInstance().getResources().getString(R.string.noConnection).concat(getShowCode(responseCode)),"", flag);
+                        BaseApplication.getInstance().getResources().getString(R.string.noConnection).concat(getShowCode(code)),"", flag);
             }
         } catch (Exception ex) {
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package com.example.myapplication.mvpnetworklibrary.network.okHttp.utils;
+package com.example.myapplication.mvpnetwork.util;
 
 
 import com.alibaba.fastjson.JSON;

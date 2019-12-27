@@ -4,12 +4,12 @@ import android.content.pm.PackageManager;
 
 
 import com.example.myapplication.mvpnetwork.util.BaseUrl;
+import com.example.myapplication.mvpnetwork.util.JsonUtils;
 import com.example.myapplication.mvpnetworklibrary.base.BaseApplication;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.NetResultCallBack;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.builder.GetBuilder;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.builder.PostStringBuilder;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.builder.PutStringBuilder;
-import com.example.myapplication.mvpnetworklibrary.network.okHttp.utils.JsonUtils;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.utils.OkHttpUtils;
 
 import java.util.Map;

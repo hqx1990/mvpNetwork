@@ -4,9 +4,9 @@ package com.example.myapplication.mvpnetwork.model;
 import com.example.myapplication.mvpnetwork.bean.GetDictBeanRtn;
 import com.example.myapplication.mvpnetwork.network.HttpDAO;
 import com.example.myapplication.mvpnetwork.util.BaseUrl;
+import com.example.myapplication.mvpnetwork.util.JsonUtils;
 import com.example.myapplication.mvpnetworklibrary.base.BaseModel;
 import com.example.myapplication.mvpnetworklibrary.network.okHttp.NetResultCallBack;
-import com.example.myapplication.mvpnetworklibrary.network.okHttp.utils.JsonUtils;
 
 import java.util.HashMap;
 
