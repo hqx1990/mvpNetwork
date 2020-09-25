@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MvpNetworkLibrary</string>
+    <string name="app_name">loggerlibrary</string>
 
     <string name="noResponse">服务端无响应</string>
     <string name="noConnection">网络断开了，请检查您的网络</string>
@@ -9,5 +9,6 @@
     <string name="param_exception">参数异常</string>
     <string name="internet_exception">网络异常</string>
     <string name="file_not_exsit_str">文件不存在</string>
+
 
 </resources>

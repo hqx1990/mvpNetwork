@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="padding_max">15dp</dimen>
+    <dimen name="padding_middle">10dp</dimen>
+    <dimen name="padding_min">5dp</dimen>
+    <dimen name="margin_max">15dp</dimen>
+    <dimen name="margin_middle">10dp</dimen>
+    <dimen name="margin_min">5dp</dimen>
+    <dimen name="text_size_max">26sp</dimen>
+    <dimen name="text_size_middle">15sp</dimen>
+    <dimen name="text_size_min">14sp</dimen>
+    <dimen name="text_size_num">30sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_content">16sp</dimen>
+    <dimen name="img_width_max">100dp</dimen>
+    <dimen name="img_height_max">100dp</dimen>
+    <dimen name="img_width_min">60dp</dimen>
+    <dimen name="img_height_min">60dp</dimen>
+    <dimen name="img_width_mini">30dp</dimen>
+    <dimen name="img_height_mini">30dp</dimen>
+    <dimen name="img_width_middle">80dp</dimen>
+    <dimen name="img_height_middle">80dp</dimen>
+    <dimen name="line">1dp</dimen>
+    <dimen name="corner_radius">5dp</dimen>
+</resources>

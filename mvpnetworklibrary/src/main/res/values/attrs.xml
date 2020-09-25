@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeyBoardEditText">
+        <attr name="boardType">
+            <enum name="card" value="0" />
+            <enum name="money" value="1" />
+            <enum name="number" value="2" />
+            <enum name="password" value="3" />
+            <enum name="noPointMoney" value="4" />
+            <enum name="pin" value="5" />
+        </attr>
+        <attr name="allowDismiss" format="boolean" />
+        <attr name="isShowKeyboard" format="boolean" />
+        <attr name="isAutoShowKeyboard" format="boolean" />
+        <attr name="isChecked" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomRecyclerView">
+        <attr name="showRefreshLayout" format="boolean" />
+        <attr name="showLoadMoreLayout" format="boolean" />
+        <attr name="numColumns" format="integer" />
+        <attr name="spanCount" format="integer" />
+        <attr name="itemType">
+            <enum name="LIST" value="0" />
+            <enum name="GRID" value="1" />
+            <enum name="STAGGERED" value="2" />
+        </attr>
+        <attr name="staggeredOrientation">
+            <enum name="HORIZONTAL" value="0" />
+            <enum name="VERTICAL" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="VerticalTabLayout">
+        <attr name="indicatorColor" format="color" />
+        <attr name="indicatorWidth" format="dimension" />
+        <attr name="indicatorCorners" format="dimension" />
+        <attr name="indicatorGravity">
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+            <enum name="fill" value="119" />
+        </attr>
+        <attr name="verticalTabMargin" format="dimension" />
+        <attr name="customTabMode">
+            <enum name="fixed" value="10" />
+            <enum name="scrollable" value="11" />
+        </attr>
+        <attr name="verticalTabHeight" format="dimension"/>
+        <attr name="hasIcon" format="boolean"/>
+        <attr name="hasText" format="boolean"/>
+        <attr name="isScroll" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="HorizontalTabLayout">
+        <attr name="indicatorHorizontalGravity">
+            <enum name="top" value="3" />
+            <enum name="bottom" value="5" />
+            <enum name="fill" value="119" />
+        </attr>
+        <attr name="horizontalTabWidth" format="dimension"/>
+        <attr name="indicatorHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="GestureLockView">
+        <attr name="column" format="integer"/>
+        <attr name="circleRadius" format="dimension" />
+        <attr name="normalCenterCircleColor" format="color" />
+        <attr name="selectCenterCircleColor" format="color" />
+        <attr name="normalOutCircleColor" format="color" />
+        <attr name="selectOutCircleColor" format="color" />
+        <attr name="lineColor" format="color" />
+        <attr name="errorColor" format="color" />
+        <attr name="errorCenterCircleColor" format="color" />
+        <attr name="correctLineColor" format="color" />
+        <attr name="tipBackgroundColor" format="color" />
+        <attr name="normalOutCircleWidth" format="dimension" />
+        <attr name="selectOutCircleWidth" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="isDrawTip" format="boolean" />
+        <attr name="isDrawBitmap" format="boolean" />
+        <attr name="drawImg" format="reference" />
+        <attr name="minNum" format="integer" />
+        <attr name="maxTimes" format="integer" />
+    </declare-styleable>
+</resources>

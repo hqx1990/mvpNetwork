@@ -53,6 +53,8 @@ public class MainActivity extends MyBaseActivity implements UseMVPFrameworkView 
     @Override
     public void verificationCodeView(GetDictBeanRtn getDictBeanRtn) {
         Logger.e("接口请求成功","接口请求成功");
+        showProgress(false);
+        showDialog("接口请求成功");
     }
 
 

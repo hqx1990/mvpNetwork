@@ -4,4 +4,24 @@
     <color name="default_arc_progress_arc_fg">#FF4081</color>
     <color name="default_arc_progress_arc_bg">#22000000</color>
 
+
+    <color name="ff3F51B5">#3F51B5</color>
+    <color name="ff303F9F">#303F9F</color>
+    <color name="ffff4081">#FF4081</color>
+    <color name="ff000000">#000000</color>
+
+    <color name="fff">#fff</color>
+    <color name="ff4081">#ff4081</color>
+    <color name="ff333333">#333333</color>
+    <color name="ff666666">#666666</color>
+    <color name="ffe1e1e1">#e1e1e1</color>
+    <color name="gold_light">#f6cb02</color>
+    <color name="gold_navy">#e8ad27</color>
+
+    <!--线的颜色-->
+    <color name="line_light">#ebebeb</color>
+    <color name="line_navy">#d9d9d9</color>
+    <color name="DFDFDF">#DFDFDF</color>
+
+
 </resources>

@@ -1,7 +1,7 @@
 package com.example.myapplication.mvpnetwork.base;
 
-import com.example.myapplication.mvpnetwork.interfaces.DialogListener;
 import com.example.myapplication.mvpnetworklibrary.base.BaseView;
+import com.example.myapplication.mvpnetworklibrary.dialog.DialogListener;
 
 public interface MyView extends BaseView {
     void showProgress(boolean flag);

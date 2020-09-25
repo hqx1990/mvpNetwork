@@ -1,4 +1,4 @@
-package com.example.myapplication.mvpnetwork.interfaces;
+package com.example.myapplication.mvpnetworklibrary.dialog;
 
 import android.app.AlertDialog;
 import android.widget.TextView;

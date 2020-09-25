@@ -16,7 +16,6 @@ import com.example.myapplication.mvpnetworklibrary.util.Logger;
 
 
 /**
- * 项目名称：HFAndroid
  * hqx
  * 2019-12-26
  * ----------------------------------------------------------------------------------------------------
