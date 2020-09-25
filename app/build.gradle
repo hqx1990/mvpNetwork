@@ -35,6 +35,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     //json 解析
     implementation 'com.alibaba:fastjson:1.1.67.android'
-    implementation(name:'mvpnetworklibrary-release', ext:'aar')
-//    implementation project(':mvpnetworklibrary')
+    implementation project(':mvpnetworklibrary')
 }
